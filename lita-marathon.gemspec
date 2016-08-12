@@ -1,6 +1,6 @@
 Gem::Specification.new do |spec|
   spec.name          = "lita-marathon"
-  spec.version       = "0.1.0"
+  spec.version       = "0.1.1"
   spec.authors       = ["Nicholas Silva"]
   spec.email         = ["nick@silvamerica.com"]
   spec.description   = "Interact with the Marathon API for your Mesos cluster"

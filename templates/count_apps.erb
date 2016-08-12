@@ -1,0 +1,6 @@
+<% max_id_length = @apps.max_by{|app|app.id.length}.id.length %>
+
+<% @apps.sort_by{|app|app.id}.each do |app| %>
+<%= app.id.ljust(max_id_length + 3) %><%= app.tasksRunning %>/<%= app.instances %>
+
+<% end %>

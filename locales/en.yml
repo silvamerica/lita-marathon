@@ -1,0 +1,17 @@
+en:
+  lita:
+    handlers:
+      marathon:
+        response:
+          restart: "Restarting %{app}"
+          suspend: "Suspending %{app}"
+          scale: "Scaling %{app} to %{instances}"
+          no_apps: "No apps found."
+        help:
+          list: "List Marathon apps"
+          count: "Show number of instances for Marathon apps"
+          restart: "Restart Marathon apps"
+          suspend: "Suspend Marathon apps"
+          scale: "Scale Marathon apps"
+        error:
+          unexpected_response: "The server returned an unexpected response. %{app} is probably locked by a deployment."

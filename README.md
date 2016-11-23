@@ -4,6 +4,14 @@ Interact with the Marathon API for your Mesos cluster
 
 ## Installation
 
+Within your Lita setup, make a new authorized group called 'deployers'.
+
+As an admin using the Slack adaptor for example:
+
+```
+lita auth add <user.id/user.name> deployers
+```
+
 Add lita-marathon to your Lita instance's Gemfile:
 
 ``` ruby
